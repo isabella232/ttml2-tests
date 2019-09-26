@@ -184,6 +184,10 @@
         ],
         "invalid": []
     },
+    "#base": {
+        "valid": [],
+        "invalid": []
+    },
     "#base-general": {
         "valid": [
             { "test": "ttml2-prstn-base-image" }
@@ -367,6 +371,14 @@
         ],
         "invalid": []
     },
+    "#displayAlign-region": {
+        "valid": [],
+        "invalid": []
+    },
+    "#displayAlign-relative": {
+        "valid": [],
+        "invalid": []
+    },
     "#displayAlign-version-2": {
         "valid": [
             { "test": "ttml2-prstn-display-align-block" },
@@ -422,6 +434,10 @@
         ],
         "invalid": []
     },
+    "#extent-auto": {
+        "valid": [],
+        "invalid": []
+    },
     "#extent-auto-version-2": {
         "valid": [
             { "test": "ttml2-prstn-extent-image" },
@@ -459,6 +475,10 @@
         "valid": [
             { "test": "ttml2-prstn-extent-image" }
         ],
+        "invalid": []
+    },
+    "#extent-length": {
+        "valid": [],
         "invalid": []
     },
     "#extent-length-version-2": {
@@ -574,6 +594,7 @@
         "invalid": []
     },
     "#length-real-version-2": {
+        "since": "2e",
         "valid": [],
         "invalid": []
     },
@@ -650,6 +671,10 @@
         ],
         "invalid": []
     },
+    "#opacity-region": {
+        "valid": [],
+        "invalid": []
+    },
     "#opacity-version-2": {
         "valid": [
             { "test": "ttml2-prstn-opacity-block" },
@@ -669,6 +694,10 @@
         "valid": [
             { "test": "ttml2-prstn-padding-inline" }
         ],
+        "invalid": []
+    },
+    "#padding-region": {
+        "valid": [],
         "invalid": []
     },
     "#padding-version-2": {
@@ -711,6 +740,11 @@
             { "test": "ttml2-prstn-position-imsc11-2" },
             { "test": "ttml2-prstn-position-imsc11-3" }
         ],
+        "invalid": []
+    },
+    "#presentation-audio": {
+        "since": "2e",
+        "valid": [],
         "invalid": []
     },
     "#presentation-version-2": {
@@ -767,6 +801,11 @@
         "valid": [
             { "test": "ttml2-prstn-region-inline" }
         ],
+        "invalid": []
+    },
+    "#region-timing": {
+        "since": "2e",
+        "valid": [],
         "invalid": []
     },
     "#resources": {
@@ -846,6 +885,10 @@
             { "test": "ttml2-prstn-ruby-reserve-imsc11-2" },
             { "test": "ttml2-prstn-ruby-reserve-imsc11-3" }
         ],
+        "invalid": []
+    },
+    "#set": {
+        "valid": [],
         "invalid": []
     },
     "#set-fill": {

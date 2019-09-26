@@ -297,6 +297,12 @@
             { "test": "ttml2-invld-bad-background-repeat-unknown-keyword" }
         ]
     },
+    "#base": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#base-general": {
         "valid": [
             { "test": "ttml2-valid-base-general" }
@@ -620,6 +626,18 @@
         ],
         "invalid": []
     },
+    "#displayAlign-region": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
+    "#displayAlign-relative": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#displayAlign-version-2": {
         "valid": [
             { "test": "ttml2-valid-display-align-1" },
@@ -707,6 +725,12 @@
             { "test": "ttml2-invld-image-embedding-bad-resource", "exclude": true }
         ]
     },
+    "#extent-auto": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#extent-auto-version-2": {
         "valid": [
             { "test": "ttml2-valid-extent-2-root-auto" }
@@ -772,6 +796,12 @@
         ],
         "invalid": []
     },
+    "#extent-length": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#extent-length-version-2": {
         "valid": [
             { "test": "ttml2-valid-extent-2-length" }
@@ -783,6 +813,13 @@
             { "test": "ttml2-valid-extent-2-measure" }
         ],
         "invalid": []
+    },
+    "#length-real-version-2": {
+        "since": "2e",
+        "valid": [
+        ],
+        "invalid": [
+        ]
     },
     "#extent-region-version-2": {
         "valid": [
@@ -1085,6 +1122,12 @@
             { "test": "ttml2-invld-bad-opacity-unknown-keyword" }
         ]
     },
+    "#opacity-region": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#opacity-version-2": {
         "valid": [
             { "test": "ttml2-valid-opacity-block" },
@@ -1130,6 +1173,12 @@
             { "test": "ttml2-invld-bad-padding-negative-start-and-end" },
             { "test": "ttml2-invld-bad-padding-colon-delimiter-sans-whitespace" },
             { "test": "ttml2-invld-bad-padding-unknown-unit" }
+        ]
+    },
+    "#padding-region": {
+        "valid": [
+        ],
+        "invalid": [
         ]
     },
     "#padding-version-2": {
@@ -1205,6 +1254,13 @@
             { "test": "ttml2-invld-bad-position-all-space" },
             { "test": "ttml2-invld-bad-position-empty" },
             { "test": "ttml2-invld-bad-position-unknown-keyword" }
+        ]
+    },
+    "#presentation-audio": {
+        "since": "2e",
+        "valid": [
+        ],
+        "invalid": [
         ]
     },
     "#presentation-version-2": {
@@ -1459,6 +1515,13 @@
             { "test": "ttml2-invld-region-inline-timing" }
         ]
     },
+    "#region-timing": {
+        "since": "2e",
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#resources": {
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
@@ -1568,6 +1631,12 @@
             { "test": "ttml2-invld-bad-ruby-reserve-empty" },
             { "test": "ttml2-invld-bad-ruby-reserve-negative" },
             { "test": "ttml2-invld-bad-ruby-reserve-unknown-keyword" }
+        ]
+    },
+    "#set": {
+        "valid": [
+        ],
+        "invalid": [
         ]
     },
     "#set-fill": {
